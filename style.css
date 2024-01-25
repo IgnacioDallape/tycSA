@@ -29,12 +29,14 @@ footer {
     padding: 20px;
 }
 
+
 .text-justify {
     text-align: justify !important;
 }
 
 .tycImg{
     width: 55rem;
+    border-radius: 1rem;
 }
 
 .tycImgLogo{
@@ -51,4 +53,12 @@ footer {
 
 .header__redesSociales__logo:hover {
     transform: scale(1.2);
+}
+
+.color1{
+    background-color: #D9D8D7;
+}
+
+.color2{
+    background-color: #F2F2F0;
 }
