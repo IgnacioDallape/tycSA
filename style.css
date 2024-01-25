@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Color de fondo, ajusta según tus preferencias */
+    color: #333; /* Color de texto principal */
+}
+
+header {
+    background-color: #333; /* Color de fondo del encabezado, ajusta según tus preferencias */
+    color: #fff; /* Color de texto del encabezado */
+    text-align: center;
+    padding: 30px;
+}
+
+section {
+    padding: 30px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer {
+    background-color: #333; /* Color de fondo del pie de página, ajusta según tus preferencias */
+    color: #fff; /* Color de texto del pie de página */
+    text-align: center;
+    padding: 20px;
+}
+
+
+.text-justify {
+    text-align: justify !important;
+}
+
+.tycImg{
+    width: 55rem;
+}
+
+.tycImgLogo{
+    width: 10rem;
+    border-radius: 4rem;
+}
