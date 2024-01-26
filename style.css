@@ -39,6 +39,13 @@ footer {
     border-radius: 1rem;
 }
 
+.tycImg2{
+    width: 30rem;
+    border-radius: 1rem;
+}
+
+
+
 .tycImgLogo{
     width: 10rem;
     border-radius: 4rem;
@@ -61,4 +68,22 @@ footer {
 
 .color2{
     background-color: #F2F2F0;
+}
+
+.email{
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.separacion{
+    justify-content: space-evenly;
+}
+
+
+.negrita{
+    font-weight: bold;
+}
+
+.grande{
+    font-size: larger;
 }
