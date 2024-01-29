@@ -11,6 +11,8 @@ header {
     color: #fff; /* Color de texto del encabezado */
     text-align: center;
     padding: 30px;
+/*     position: fixed;
+    width: 100%;*/
 }
 
 section {
@@ -49,13 +51,20 @@ footer {
 .tycImgLogo{
     width: 10rem;
     border-radius: 4rem;
+    transition: transform 0.1s ease-in-out;
+
+}
+
+.tycImgLogo:hover{
+    transform: scale(1.2);
+
 }
 
 .header__redesSociales__logo {
     width: 3rem;
     border-radius: 1rem;
     padding: 5px;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.1s ease-in-out;
 }
 
 .header__redesSociales__logo:hover {
