@@ -25,3 +25,17 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     });
   });
+
+  //carrousel
+  document.addEventListener('DOMContentLoaded', function () {
+    const glide = new Glide('.glide', {
+        type: 'carousel',
+        startAt: 0,
+        perView: 3,
+        autoplay: 3000,
+        hoverpause: true
+    });
+
+    glide.mount();
+});
+
