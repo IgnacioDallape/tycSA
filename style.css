@@ -136,3 +136,13 @@ footer {
   
 
 
+  document.getElementById("whatsappLink").addEventListener("click", function(event) {
+    event.preventDefault();
+    openWhatsApp();
+  });
+  
+  function openWhatsApp() {
+    const newWindow = window.open("https://wa.me/5492615102695", "_blank", "noopener");
+    newWindow.focus();
+  }
+  

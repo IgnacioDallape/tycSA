@@ -35,7 +35,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
       window.scrollTo({
         top: position,
-        behavior: 'smooth'
+        behavior: 'smooth',
+        duration: 2000
       });
     });
   });
