@@ -13,6 +13,48 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   document.addEventListener('DOMContentLoaded', function () {
+    let contactButton = document.querySelector('#AServicios');
+
+    contactButton.addEventListener('click', function () {
+      let contactoSection = document.querySelector('#servicios');
+      let position = contactoSection.offsetTop;
+
+      window.scrollTo({
+        top: position,
+        behavior: 'smooth'
+      });
+    });
+  });
+
+  document.addEventListener('DOMContentLoaded', function () {
+    let contactButton = document.querySelector('#AClientes');
+
+    contactButton.addEventListener('click', function () {
+      let contactoSection = document.querySelector('#clientes');
+      let position = contactoSection.offsetTop;
+
+      window.scrollTo({
+        top: position,
+        behavior: 'smooth'
+      });
+    });
+  });
+
+  document.addEventListener('DOMContentLoaded', function () {
+    let contactButton = document.querySelector('#AUbicacion');
+
+    contactButton.addEventListener('click', function () {
+      let contactoSection = document.querySelector('#Ubicacion');
+      let position = contactoSection.offsetTop;
+
+      window.scrollTo({
+        top: position,
+        behavior: 'smooth'
+      });
+    });
+  });
+
+  document.addEventListener('DOMContentLoaded', function () {
     let contactButton = document.querySelector('#ANosotros');
 
     contactButton.addEventListener('click', function () {
