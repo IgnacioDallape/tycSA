@@ -85,9 +85,9 @@ document.addEventListener('DOMContentLoaded', function () {
 document.addEventListener('DOMContentLoaded', function () {
   const anotherGlide = new Glide('.another-carousel', {
       type: 'carousel',
-      startAt: 4,
+      startAt: 0,
       perView: 5,
-      autoplay: 2500,
+      autoplay: 2000,
       hoverpause: false
   });
 
