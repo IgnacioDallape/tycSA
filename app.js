@@ -76,9 +76,20 @@ document.addEventListener('DOMContentLoaded', function () {
         startAt: 0,
         perView: 3,
         autoplay: 3000,
-        hoverpause: true
+        hoverpause: false
     });
 
     glide.mount();
 });
 
+document.addEventListener('DOMContentLoaded', function () {
+  const anotherGlide = new Glide('.another-carousel', {
+      type: 'carousel',
+      startAt: 4,
+      perView: 5,
+      autoplay: 2500,
+      hoverpause: false
+  });
+
+  anotherGlide.mount();
+});
