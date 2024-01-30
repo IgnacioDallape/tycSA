@@ -42,8 +42,8 @@ footer {
 }
 
 .tycImg2{
-    width: 30rem;
-    border-radius: 1rem;
+    width: 25rem;
+    border-radius: 0.3rem;
 }
 
 
@@ -79,9 +79,11 @@ footer {
     background-color: #F2F2F0;
 }
 
+
 .email{
     font-size: 1.5rem;
     text-decoration: none;
+    color: #55a4da;
 }
 
 .separacion{
@@ -115,6 +117,7 @@ footer {
     background-color: #333;
     color: #fff;
     border-color: #fff;
+    transform: scale(1,1);
   }
 
 
@@ -132,4 +135,36 @@ footer {
     margin-right: 10px;
     color: #333;
   }
+
   
+.nosotros{
+    font-weight: bold;
+}
+
+/* Estilo para centrar y ajustar tamaño de las imágenes */
+.glide__slide img {
+    max-width: 20rem; /* Establece el ancho máximo deseado */
+    max-height: 20rem; /* Establece la altura máxima deseada */
+    width: auto; /* Permite que el ancho sea automático dentro del máximo establecido */
+    height: auto; /* Permite que la altura sea automática dentro del máximo establecido */
+    display: block; /* Elimina espacio adicional por ser un elemento en línea */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+/* Opcional: Agrega estilos adicionales para el contenedor de la imagen si es necesario */
+.glide__slide {
+    text-align: center; /* Centra la imagen horizontalmente en el contenedor */
+    margin-bottom: 10px; /* Espacio opcional entre las imágenes */
+}
+
+.googleMaps{
+    border-radius: 0.4rem;
+}
+
+.contactoTitulo{
+    padding-bottom: 10rem;
+}
+
+.imgCamion{
+    width: 10rem;
+}
