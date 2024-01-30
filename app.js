@@ -42,10 +42,10 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   document.addEventListener('DOMContentLoaded', function () {
-    let contactButton = document.querySelector('#AUbicacion');
+    let contactButton = document.querySelector('#AUnidades');
 
     contactButton.addEventListener('click', function () {
-      let contactoSection = document.querySelector('#Ubicacion');
+      let contactoSection = document.querySelector('#unidades');
       let position = contactoSection.offsetTop;
 
       window.scrollTo({
