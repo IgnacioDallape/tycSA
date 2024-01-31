@@ -143,6 +143,9 @@ footer {
 
 /* Estilo para centrar y ajustar tamaño de las imágenes */
 .glide__slide img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     max-width: 20rem; /* Establece el ancho máximo deseado */
     max-height: 20rem; /* Establece la altura máxima deseada */
     width: auto; /* Permite que el ancho sea automático dentro del máximo establecido */
@@ -151,8 +154,16 @@ footer {
     margin: 0 auto; /* Centra la imagen horizontalmente */
 }
 
+.glide_slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 19rem;
+}
+
 /* Opcional: Agrega estilos adicionales para el contenedor de la imagen si es necesario */
 .glide__slide {
+    
     text-align: center; /* Centra la imagen horizontalmente en el contenedor */
     margin-bottom: 10px; /* Espacio opcional entre las imágenes */
 }
@@ -162,12 +173,48 @@ footer {
 }
 
 .contactoTitulo{
-    padding-bottom: 5rem;
+    padding-bottom: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .imgCamion{
-    width: 10rem;
+    width: 15rem;
+    border: black solid 1px;
+    border-radius: 0.3rem;
+}
+
+.paddingFotos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+
+.volante{
+    padding-top: 1.4rem;
+}
+
+
+.valores-styled {
+    display: flex;
+    width: 600px;
+    height: 400px;
+}
+
+.styled-img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: .5s ease;
+}
+
+.styled-img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
 }
