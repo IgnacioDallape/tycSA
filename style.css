@@ -1,3 +1,8 @@
+html{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: larger;
@@ -6,6 +11,7 @@ body {
     background-color: #f5f5f5;
     /* Color de fondo, ajusta según tus preferencias */
     color: #333;
+    overflow-x: hidden;
     /* Color de texto principal */
 }
 
@@ -247,7 +253,8 @@ footer {
 
 @media only screen and (max-width: 600px) {
     body {
-        font-size: 14px;
+        font-size: 16px;
+        overflow-x: hidden;
         /* Reducción del tamaño de fuente para pantallas más pequeñas */
     }
 
@@ -278,8 +285,19 @@ footer {
     }
 
     .desaparecer {
+        margin: 0;
+        padding: 0;
         display: none;
     }
+
+    .desaparecer1 {
+        
+        display: none;
+        background-color: #745231;
+        position: relative;
+        top: 32rem;
+    }
+
 
     .services {
         padding: 5%;
@@ -292,6 +310,7 @@ footer {
         flex-direction: column;
     }
 
+
     .another-carousel {
         display: flex;
         flex-direction: column;
@@ -299,7 +318,7 @@ footer {
         align-items: center;
     }
 
-    .fitContent{
+    .fitContent {
         width: fit-content;
     }
 
@@ -399,7 +418,7 @@ footer {
 
     .googleMaps {
         border-radius: 0.4rem;
-        
+
     }
 
 
@@ -446,4 +465,9 @@ footer {
         /* Espacio opcional entre las imágenes */
     }
 
+
+    .sobreNosotrosPosicionamiento{
+        position: relative;
+        bottom: 6rem;
+    }
 }
