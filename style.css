@@ -81,7 +81,7 @@ footer {
 /* Immagenes */
 
 .tycImg {
-    width: 55rem;
+    width: 38rem;
     border-radius: 1rem;
 }
 
@@ -113,7 +113,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 3rem;
+    padding: 2rem 5rem 2rem 3rem;
 }
 
 /* Header */
@@ -253,7 +253,7 @@ footer {
 
 @media only screen and (max-width: 600px) {
     body {
-        font-size: 16px;
+        font-size: 17px;
         overflow-x: hidden;
         background-color: #F2F2F0;
 
